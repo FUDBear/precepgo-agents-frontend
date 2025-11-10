@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Safety Agent",
+    "apiName": "notification_agent",
+    "description": "Monitors and ensures safety protocols",
+    "icon": "/safety.svg",
+    "color": "bg-red-500/20",
+    "iconColor": "text-red-600",
+    "action": "runSafetyCheck",
+    "detailedDescription": "The Safety Agent continuously monitors student evaluations to identify potentially unsafe clinical practices or concerning patterns. It analyzes evaluation data for negative indicators such as poor performance ratings, safety violations, or critical feedback. When unsafe conditions are detected, the agent automatically generates notifications to alert program administrators. This real-time monitoring helps prevent adverse clinical outcomes by ensuring immediate intervention when students demonstrate unsafe behaviors, ultimately protecting patient safety and improving clinical education quality.",
+    "realWorldProblem": "Clinical education programs struggle to identify and address unsafe student behaviors before they impact patient care. Manual review of evaluations is time-consuming and inconsistent, potentially missing critical safety concerns. The Safety Agent solves this by providing real-time, automated monitoring that ensures no safety concern goes unnoticed, enabling immediate intervention and ultimately protecting both patients and students."
+  },
+  {
+    "name": "Scenario Agent",
+    "apiName": "scenario_agent",
+    "description": "Generates and manages training scenarios",
+    "icon": "/scenario.svg",
+    "color": "bg-blue-500/20",
+    "iconColor": "text-blue-600",
+    "action": "generateScenario",
+    "detailedDescription": "The Scenario Agent creates personalized clinical training scenarios tailored to individual student needs. By analyzing past performance data, case histories, and learning objectives, it generates realistic clinical scenarios that target specific skill gaps or learning areas. Each scenario includes patient details, clinical context, learning objectives, and discussion points. This personalized approach ensures students receive targeted practice opportunities that align with their current skill level and learning needs, maximizing educational efficiency and preparing them for real-world clinical challenges.",
+    "realWorldProblem": "Traditional clinical training relies on generic scenarios that may not address individual student learning needs. Preceptors often lack time to create personalized training scenarios, leading to inefficient learning experiences. The Scenario Agent solves this by automatically generating tailored scenarios based on each student's performance history, ensuring targeted practice that maximizes learning efficiency and better prepares students for clinical challenges."
+  },
+  {
+    "name": "Evaluation Agent",
+    "apiName": "evaluation_agent",
+    "description": "Evaluates performance and outcomes",
+    "icon": "/evaluation.svg",
+    "color": "bg-green-500/20",
+    "iconColor": "text-green-600",
+    "action": "createDemoEvaluation",
+    "detailedDescription": "The Evaluation Agent generates realistic demo data that accurately simulates how a preceptor would evaluate a student during clinical rotations. By creating authentic preceptor evaluation patterns, the agent produces safe, synthetic evaluation data that mimics real-world clinical assessments. This demo data includes comprehensive performance metrics across clinical competencies, preceptor observations, and structured feedback - all formatted to match actual evaluation documentation. The agent enables safe testing and development of other PrecepGo services by providing realistic evaluation data without requiring access to sensitive student information. This approach allows for thorough testing of downstream agents (like the Safety Agent and COA Agent) using authentic data patterns while maintaining complete data privacy and security.",
+    "realWorldProblem": "Preceptors spend significant time creating detailed evaluation reports, which reduces time available for direct student supervision and teaching. Inconsistent evaluation formats make it difficult to track student progress over time. The Evaluation Agent solves this by automating the evaluation creation process while maintaining thoroughness and consistency, allowing preceptors to focus on teaching while ensuring comprehensive documentation of student progress."
+  },
+  {
+    "name": "COA Agent",
+    "apiName": "coa_agent",
+    "description": "Accreditation and compliance agent",
+    "icon": "/coa.svg",
+    "color": "bg-purple-500/20",
+    "iconColor": "text-purple-600",
+    "action": "generateCOAReports",
+    "detailedDescription": "The COA (Council on Accreditation) Compliance Agent generates comprehensive accreditation reports by analyzing student performance data against accreditation standards. It tracks student progress across multiple clinical competencies, calculates compliance metrics, and produces detailed reports required for accreditation reviews. The agent identifies areas where programs meet or exceed standards, highlights areas needing improvement, and provides aggregate data for program evaluation. This automation ensures accurate, timely reporting for accreditation purposes while reducing administrative burden on program staff.",
+    "realWorldProblem": "Nurse anesthesia programs face extensive administrative burden when preparing accreditation reports. Manual data collection and report generation is error-prone, time-consuming, and requires significant staff resources. The COA Compliance Agent solves this by automatically aggregating student performance data, calculating compliance metrics, and generating comprehensive accreditation reports, ensuring accurate documentation while freeing program staff to focus on educational quality."
+  },
+  {
+    "name": "Time Savings Analytics Agent",
+    "apiName": "time_savings_agent",
+    "description": "Tracks and analyzes time savings metrics",
+    "icon": "/time.svg",
+    "color": "bg-yellow-500/20",
+    "iconColor": "text-yellow-600",
+    "action": "viewTimeSavings",
+    "detailedDescription": "The Time Savings Analytics Agent provides comprehensive insights into the time and cost savings achieved through PrecepGo's automation. It tracks hours saved across all agents, calculates FTE (Full-Time Equivalent) savings, estimates cost savings, and provides detailed breakdowns by task and agent. The agent generates AI-powered insights to help program administrators understand the value and impact of automated processes. This enables data-driven decision-making and demonstrates the return on investment of implementing PrecepGo's agent-based automation system.",
+    "realWorldProblem": "Program administrators struggle to quantify the value of automation in clinical education. Manual tracking and reporting are time-consuming and often lack visibility into actual savings. The Time Savings Analytics Agent solves this by providing comprehensive insights into the time and cost savings achieved through PrecepGo's automation. It tracks hours saved across all agents, calculates FTE (Full-Time Equivalent) savings, estimates cost savings, and provides detailed breakdowns by task and agent. The agent generates AI-powered insights to help program administrators understand the value and impact of automated processes. This enables data-driven decision-making and demonstrates the return on investment of implementing PrecepGo's agent-based automation system."
+  },
+  {
+    "name": "Site Agent",
+    "apiName": "site_agent",
+    "description": "Generates clinical site and preceptor reports",
+    "icon": "/site.svg",
+    "color": "bg-teal-500/20",
+    "iconColor": "text-teal-600",
+    "action": "generateSiteReport",
+    "detailedDescription": "The Site Agent analyzes all evaluations from the agent_evaluations collection and generates comprehensive site reports listing clinical sites, case types, and preceptor information. It processes evaluation data to identify patterns across clinical sites, tracks case type distributions, and compiles detailed preceptor information. These reports provide program administrators with valuable insights into clinical training distribution, site utilization, and preceptor engagement across the program.",
+    "realWorldProblem": "Program administrators need comprehensive visibility into clinical site utilization, case type distribution, and preceptor engagement across their programs. Manually analyzing evaluation data to identify patterns and generate site reports is time-consuming and error-prone. The Site Agent solves this by automatically analyzing all evaluation data to generate comprehensive site reports that provide insights into clinical site performance, case type diversity, and preceptor information, enabling data-driven decisions about site assignments and resource allocation."
+  }
+]
+

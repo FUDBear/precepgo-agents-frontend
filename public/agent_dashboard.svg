@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_30" data-name="Layer 30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 478.72 178.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #efefef;
+      }
+
+      .cls-3 {
+        font-family: BasicSans-BlackIt, 'Basic Sans';
+        font-size: 88.91px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #ffbd55;
+      }
+
+      .cls-4 {
+        font-family: BasicSans-Thin, 'Basic Sans';
+        font-size: 48px;
+        font-weight: 200;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: .01em;
+      }
+
+      .cls-9 {
+        letter-spacing: .01em;
+      }
+
+      .cls-10 {
+        letter-spacing: .01em;
+      }
+
+      .cls-11 {
+        letter-spacing: .01em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <text class="cls-3" transform="translate(8.35 90.66)"><tspan class="cls-10" x="0" y="0">P</tspan><tspan class="cls-5" x="55.57" y="0">r</tspan><tspan class="cls-10" x="91.57" y="0">ecepGo</tspan></text>
+    <path class="cls-2" d="M470.06,96.03h-67.02v-56.83h67.02v56.83ZM413.59,85.48h45.92v-35.74h-45.92v35.74Z"/>
+    <polygon class="cls-6" points="410.49 64.38 430 83.89 478.72 35.17 469.27 25.71 431.25 63.72 420.18 52.65 410.49 64.38"/>
+  </g>
+  <text class="cls-4" transform="translate(56.8 162.19)"><tspan class="cls-8" x="0" y="0">A</tspan><tspan class="cls-13" x="29.04" y="0">g</tspan><tspan class="cls-11" x="53.9" y="0">e</tspan><tspan class="cls-12" x="78.86" y="0">n</tspan><tspan class="cls-9" x="106.08" y="0">t Dashboa</tspan><tspan class="cls-7" x="323.9" y="0">r</tspan><tspan class="cls-8" x="337.72" y="0">d</tspan></text>
+  <line class="cls-1" x1="64.96" y1="121.7" x2="413.76" y2="121.7"/>
+</svg>

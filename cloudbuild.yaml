@@ -1,0 +1,22 @@
+steps:
+  # Build the container image
+  # Note: Update VITE_API_URL substitution or pass via --substitutions flag
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '--build-arg'
+      - 'VITE_API_URL=${_API_URL}'
+      - '-t'
+      - '${_IMAGE_NAME}'
+      - '.'
+  
+  # Push the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '${_IMAGE_NAME}']
+
+images:
+  - '${_IMAGE_NAME}'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+

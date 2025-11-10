@@ -1,0 +1,1341 @@
+ {
+  "analysis_data": {
+    "analyzed_at": "2025-11-06T04:26:36.006202",
+    "preceptors": [
+      {
+        "case_types": ["Pediatric Cerumen Disimpaction and T&A"],
+        "preceptor_name": "Riley Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Ostomy Reversal"],
+        "preceptor_name": "Morgan Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Nasolacrimal Duct Probing"],
+        "preceptor_name": "Drew Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["ORIF of Medial Malleolus"],
+        "preceptor_name": "Drew Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ankle Arthrodesis"],
+        "preceptor_name": "Drew Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Phacoemulsification with IOL"],
+        "preceptor_name": "Drew Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Disc Arthroplasty at C5-C7"],
+        "preceptor_name": "Riley Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Roux-en-Y Gastric Bypass"],
+        "preceptor_name": "Taylor Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Exploratory Laparotomy for Abdominal Trauma"],
+        "preceptor_name": "Riley Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["TEE (Transesophageal Echocardiography)"],
+        "preceptor_name": "Casey Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Lefort I Osteotomy"],
+        "preceptor_name": "Taylor Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Artificial Sphincter Placement"],
+        "preceptor_name": "Quinn Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Elbow Repair"],
+        "preceptor_name": "Casey Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Hysteroscopy (MAC)"],
+        "preceptor_name": "Riley Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Corneal Transplant (Penetrating Keratoplasty)"],
+        "preceptor_name": "Eric Harris",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Simple Prostatectomy (Second Instance)"],
+        "preceptor_name": "Morgan Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Fusion Lumbar Anterior L4-5 ALIF"],
+        "preceptor_name": "Alex Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Spinal Cord Stimulator (SCS) Implantation"],
+        "preceptor_name": "Casey Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Thoracotomy for Trauma"],
+        "preceptor_name": "Jordan Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pulmonary Lobectomy"],
+        "preceptor_name": "Drew Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pediatric G-Tube and Orchiopexy"],
+        "preceptor_name": "Alex Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Hip Arthroplasty (Including Oncologic)"],
+        "preceptor_name": "Alex Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pediatric Radiation Oncology MAC"],
+        "preceptor_name": "Drew Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ankle Hardware Removal"],
+        "preceptor_name": "Casey Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Superficial Axillary Lymph Node Dissection"],
+        "preceptor_name": "Casey Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ruptured Globe Repair"],
+        "preceptor_name": "Taylor Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pediatric Lab Draw"],
+        "preceptor_name": "Jordan Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ascending Aorta Repair / Septal Myectomy"],
+        "preceptor_name": "Jordan Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Quadriceps Tendon Repair"],
+        "preceptor_name": "Christopher Wilson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Retropubic Midurethral Sling"],
+        "preceptor_name": "Alex Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Arteriovenous Malformation (AVM)"],
+        "preceptor_name": "Morgan Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Arm Mass Resection"],
+        "preceptor_name": "Riley Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Total Ethmoidectomy"],
+        "preceptor_name": "Casey Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Penile Implant Surgery"],
+        "preceptor_name": "Jordan Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Thoracic Endovascular Aortic Repair (TEVAR)"],
+        "preceptor_name": "Alex Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Splenectomy"],
+        "preceptor_name": "Alex Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Resection of Osteochondroma"],
+        "preceptor_name": "Quinn Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pediatric Auditory/CT/MRI"],
+        "preceptor_name": "Morgan Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Digit Debulking"],
+        "preceptor_name": "Drew Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Hernia Repair (LMA)"],
+        "preceptor_name": "Morgan Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Total Knee Arthroplasty with AC/IPACK Block and Spinal"],
+        "preceptor_name": "Taylor Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Subclavian Stent and Cutdown"],
+        "preceptor_name": "Drew Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Continuous Labor Epidural Placement"],
+        "preceptor_name": "Drew Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["ALIF Lumbar Fusion"],
+        "preceptor_name": "Quinn Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["L3-4 Microdiscectomy"],
+        "preceptor_name": "Jordan Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Fusion Lumbar Anterior L4-5 ALIF"],
+        "preceptor_name": "Casey Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Resection of Osteochondroma"],
+        "preceptor_name": "Jordan Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pituitary Tumor Removal"],
+        "preceptor_name": "Quinn Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Laparoscopic Appendectomy via GETA"],
+        "preceptor_name": "Casey Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pediatric Difficult Airway"],
+        "preceptor_name": "Drew Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Polytrauma Clavicle Repair"],
+        "preceptor_name": "Morgan Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Planned C-Section"],
+        "preceptor_name": "Morgan Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Vaginal Hysterectomy"],
+        "preceptor_name": "Morgan Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Anterior/Posterior Fusion (Cervical)"],
+        "preceptor_name": "Riley Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bilateral Chalazia Excision"],
+        "preceptor_name": "Jordan Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Kyphoplasty/Vertebroplasty"],
+        "preceptor_name": "Drew Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pediatric VP Shunt Placement/Revision"],
+        "preceptor_name": "Morgan Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["DIEP Flap"],
+        "preceptor_name": "Jordan Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Lefort I Osteotomy"],
+        "preceptor_name": "Jordan Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ruptured Achilles Repair"],
+        "preceptor_name": "Alex Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Salpingectomy"],
+        "preceptor_name": "Casey Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Lefort I Osteotomy"],
+        "preceptor_name": "Morgan Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Popliteal Endarterectomy and Bypass"],
+        "preceptor_name": "Taylor Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["L Spine ALIF/OLIF"],
+        "preceptor_name": "Morgan Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Artificial Sphincter Placement"],
+        "preceptor_name": "Taylor Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Prostatectomy (Second Instance)"],
+        "preceptor_name": "Drew Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Strabismus Surgery"],
+        "preceptor_name": "Taylor Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Burn Management"],
+        "preceptor_name": "Alex Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Proximal Humerus Fracture Repair"],
+        "preceptor_name": "Riley Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Sigmoidoscopy"],
+        "preceptor_name": "Morgan Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Laparoscopic Splenectomy"],
+        "preceptor_name": "Riley Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Photo Vaporization of the Prostate"],
+        "preceptor_name": "Quinn Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Anal Excision"],
+        "preceptor_name": "Casey Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Subdural Tap"],
+        "preceptor_name": "Riley Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Anterior Bowel Resection"],
+        "preceptor_name": "Quinn Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Axillary-Brachial Aneurysm Repair"],
+        "preceptor_name": "Casey Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Breast Reconstruction (various)"],
+        "preceptor_name": "Quinn Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ureteroneocystostomy"],
+        "preceptor_name": "Riley Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pulmonary Embolectomy"],
+        "preceptor_name": "Riley Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["MRI Brain and Spine (11-Year-Old)"],
+        "preceptor_name": "Taylor Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Hip Arthroplasty (GETA)"],
+        "preceptor_name": "Riley Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Carpal Tunnel Release (Geriatric)"],
+        "preceptor_name": "Casey Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pediatric Cataract"],
+        "preceptor_name": "Alex Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bilateral Breast Reduction"],
+        "preceptor_name": "Quinn Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Pancreatectomy"],
+        "preceptor_name": "Casey Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Endoscopic Sinus Surgery"],
+        "preceptor_name": "Morgan Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bilateral Chalazia Excision"],
+        "preceptor_name": "Jordan Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Fistula Translocation (LMA)"],
+        "preceptor_name": "Alex Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bi-Frontal Craniotomy"],
+        "preceptor_name": "Morgan Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Nissen Fundoplication"],
+        "preceptor_name": "Drew Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["L3-S1 PLIF"],
+        "preceptor_name": "Quinn Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Hip Pinning (Geriatric, ASA 4)"],
+        "preceptor_name": "Taylor Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["EC-IC Bypass"],
+        "preceptor_name": "Quinn Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Total Hysterectomy with BSO"],
+        "preceptor_name": "Morgan Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Hysterectomy with Morcellation"],
+        "preceptor_name": "Quinn Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Small Bowel Resection"],
+        "preceptor_name": "Jordan Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Anal Botox Injection"],
+        "preceptor_name": "Casey Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Aqua Ablation of Prostate"],
+        "preceptor_name": "Jordan Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bilateral Upper Blepharoplasty"],
+        "preceptor_name": "Drew Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Distal Radius Fracture Repair"],
+        "preceptor_name": "Drew Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Anterior Approach Hip Arthroplasty"],
+        "preceptor_name": "Morgan Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Emergency Cesarean Section for Fetal Distress"],
+        "preceptor_name": "Jordan Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["L Spine ALIF/OLIF"],
+        "preceptor_name": "Morgan Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Laparoscopic Cholecystectomy"],
+        "preceptor_name": "Drew Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Laparoscopic Hysterectomies via GETA"],
+        "preceptor_name": "Morgan Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Kyphoplasty for Vertebral Compression Fracture"],
+        "preceptor_name": "Jordan Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Cervical Laminectomy"],
+        "preceptor_name": "Quinn Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ventriculoperitoneal (VP) Shunt Placement/Revision"],
+        "preceptor_name": "Riley Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Biceps Tendon Procedure"],
+        "preceptor_name": "Morgan Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Femur Nail and Rod Procedures"],
+        "preceptor_name": "Riley Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Adult Sinus Surgery"],
+        "preceptor_name": "Casey Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Unspecified Procedure (OR 7 Case 2)"],
+        "preceptor_name": "Alex Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Lefort I Osteotomy"],
+        "preceptor_name": "Jordan Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Axillary-Femoral Bypass"],
+        "preceptor_name": "Drew Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["L5-S1 Anterior/Posterior Fusion"],
+        "preceptor_name": "Riley Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Hysterectomy with BSO"],
+        "preceptor_name": "Quinn Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Intracranial Pressure (ICP) Monitor Placement"],
+        "preceptor_name": "Alex Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Arm Mass Resection"],
+        "preceptor_name": "Daniel Kim",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bilateral Breast Implant Replacement"],
+        "preceptor_name": "Quinn Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Total Hysterectomy with BSO"],
+        "preceptor_name": "Alex Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["L4-5 Laminectomy and Fusion"],
+        "preceptor_name": "Alex Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Nasolacrimal Duct Probing"],
+        "preceptor_name": "Alex Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Dupuytren's Contracture Release"],
+        "preceptor_name": "Casey Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Tubal Ligation (Third Instance)"],
+        "preceptor_name": "Morgan Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Cataract Surgery with Intraocular Lens (IOL) Implantation"],
+        "preceptor_name": "Quinn Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Robotic Partial Nephrectomy"],
+        "preceptor_name": "Taylor Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Thyroid Lobectomy"],
+        "preceptor_name": "Quinn Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Radical Hysterectomy"],
+        "preceptor_name": "Alex Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Deep Brain Stimulator (DBS) Implantation"],
+        "preceptor_name": "Jordan Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Tumor Resection"],
+        "preceptor_name": "Riley Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Cervical Disc Replacement"],
+        "preceptor_name": "Taylor Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pancreatectomy (Whipple or Distal)"],
+        "preceptor_name": "Alex Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bilateral Tibial ORIF"],
+        "preceptor_name": "Stephanie Taylor",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Bilateral T&A"],
+        "preceptor_name": "Drew Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Fibula ORIF"],
+        "preceptor_name": "Casey Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Cholecystectomy"],
+        "preceptor_name": "Quinn Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Radical Vulvectomy"],
+        "preceptor_name": "Riley Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Pericardiocentesis"],
+        "preceptor_name": "Morgan Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Brain MRI"],
+        "preceptor_name": "Taylor Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Radical Hysterectomy"],
+        "preceptor_name": "Taylor Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Transforaminal Lumbar Interbody Fusion (TLIF)"],
+        "preceptor_name": "Casey Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["ACDA"],
+        "preceptor_name": "Alex Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Endoscopic Ultrasound (EUS)"],
+        "preceptor_name": "Morgan Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Parotidectomy + Laryngoscopy (TIVA)"],
+        "preceptor_name": "Taylor Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Minimally Invasive Mitral Valve Repair/Replacement"],
+        "preceptor_name": "Riley Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["ALIF Lumbar Fusion"],
+        "preceptor_name": "Casey Timme",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Exam Under Anesthesia"],
+        "preceptor_name": "Drew Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Nephroureterectomy"],
+        "preceptor_name": "Taylor Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Laparotomy/Appendectomy"],
+        "preceptor_name": "Drew Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Melanoma Excision (Geriatric, LMA)"],
+        "preceptor_name": "Morgan Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["AAA Repair"],
+        "preceptor_name": "Quinn Jones",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Temporomandibular Joint (TMJ) Dislocation Repair"],
+        "preceptor_name": "Alex Brown",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Tethered Cord Repair"],
+        "preceptor_name": "Alex Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Tunnel Release"],
+        "preceptor_name": "Drew Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Endarterectomy and Stenting"],
+        "preceptor_name": "Alex Garcia",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Ankle Arthroplasty"],
+        "preceptor_name": "Quinn Johnson",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Total Hip Arthroplasty (THA)"],
+        "preceptor_name": "Riley Miller",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Skin Grafting"],
+        "preceptor_name": "Alex Williams",
+        "student_count": 1,
+        "total_evaluations": 1
+      },
+      {
+        "case_types": ["Transforaminal Lumbar Interbody Fusion (TLIF)"],
+        "preceptor_name": "Taylor Smith",
+        "student_count": 1,
+        "total_evaluations": 1
+      }
+    ],
+    "sites": [
+      {
+        "case_types": [
+          "Anal Excision",
+          "Anterior Approach Hip Arthroplasty",
+          "Arteriovenous Malformation (AVM)",
+          "Artificial Sphincter Placement",
+          "Bilateral Chalazia Excision",
+          "Burn Management",
+          "Corneal Transplant (Penetrating Keratoplasty)",
+          "Emergency Cesarean Section for Fetal Distress",
+          "Exam Under Anesthesia",
+          "L3-S1 PLIF",
+          "Laparotomy/Appendectomy",
+          "Pancreatectomy (Whipple or Distal)",
+          "Pericardiocentesis",
+          "Planned C-Section",
+          "Polytrauma Clavicle Repair",
+          "Radical Hysterectomy",
+          "Resection of Osteochondroma",
+          "Retropubic Midurethral Sling",
+          "Robotic Nissen Fundoplication",
+          "Robotic Pancreatectomy",
+          "Robotic Simple Prostatectomy (Second Instance)",
+          "Robotic Total Hysterectomy with BSO",
+          "Small Bowel Resection",
+          "Strabismus Surgery",
+          "Total Ethmoidectomy"
+        ],
+        "preceptor_names": [
+          "Alex Jones",
+          "Alex Timme",
+          "Casey Brown",
+          "Casey Smith",
+          "Drew Brown",
+          "Drew Johnson",
+          "Eric Harris",
+          "Jordan Brown",
+          "Jordan Johnson",
+          "Jordan Miller",
+          "Jordan Smith",
+          "Morgan Garcia",
+          "Morgan Johnson",
+          "Morgan Jones",
+          "Morgan Smith",
+          "Morgan Williams",
+          "Quinn Brown",
+          "Quinn Smith",
+          "Taylor Johnson",
+          "Taylor Smith",
+          "Taylor Williams"
+        ],
+        "site_name": "Tripler Army Medical Center, Honolulu, HI",
+        "total_evaluations": 26,
+        "unique_preceptors": 21
+      },
+      {
+        "case_types": [
+          "ACDA",
+          "Aqua Ablation of Prostate",
+          "Arm Mass Resection",
+          "Bi-Frontal Craniotomy",
+          "Bilateral Breast Implant Replacement",
+          "Bilateral Upper Blepharoplasty",
+          "Disc Arthroplasty at C5-C7",
+          "Fusion Lumbar Anterior L4-5 ALIF",
+          "Hernia Repair (LMA)",
+          "Hysteroscopy (MAC)",
+          "Intracranial Pressure (ICP) Monitor Placement",
+          "L Spine ALIF/OLIF",
+          "Lefort I Osteotomy",
+          "Parotidectomy + Laryngoscopy (TIVA)",
+          "Photo Vaporization of the Prostate",
+          "Pituitary Tumor Removal",
+          "Skin Grafting",
+          "Tethered Cord Repair",
+          "Thoracotomy for Trauma",
+          "Vaginal Hysterectomy",
+          "Ventriculoperitoneal (VP) Shunt Placement/Revision"
+        ],
+        "preceptor_names": [
+          "Alex Garcia",
+          "Alex Williams",
+          "Casey Smith",
+          "Drew Johnson",
+          "Jordan Smith",
+          "Jordan Williams",
+          "Morgan Jones",
+          "Morgan Miller",
+          "Morgan Timme",
+          "Quinn Smith",
+          "Quinn Timme",
+          "Quinn Williams",
+          "Riley Brown",
+          "Riley Jones",
+          "Riley Timme",
+          "Riley Williams",
+          "Taylor Garcia"
+        ],
+        "site_name": "Harborview Medical Center, Seattle, WA",
+        "total_evaluations": 21,
+        "unique_preceptors": 17
+      },
+      {
+        "case_types": [
+          "Ankle Arthrodesis",
+          "Biceps Tendon Procedure",
+          "Elbow Repair",
+          "Endarterectomy and Stenting",
+          "Femur Nail and Rod Procedures",
+          "Fibula ORIF",
+          "Hip Arthroplasty (GETA)",
+          "L Spine ALIF/OLIF",
+          "Laparoscopic Appendectomy via GETA",
+          "Laparoscopic Hysterectomies via GETA",
+          "Lefort I Osteotomy",
+          "Nasolacrimal Duct Probing",
+          "Nephroureterectomy",
+          "ORIF of Medial Malleolus",
+          "Superficial Axillary Lymph Node Dissection",
+          "TEE (Transesophageal Echocardiography)",
+          "Temporomandibular Joint (TMJ) Dislocation Repair",
+          "Thyroid Lobectomy",
+          "Transforaminal Lumbar Interbody Fusion (TLIF)",
+          "Tunnel Release"
+        ],
+        "preceptor_names": [
+          "Alex Brown",
+          "Alex Garcia",
+          "Casey Johnson",
+          "Casey Jones",
+          "Casey Miller",
+          "Drew Garcia",
+          "Drew Johnson",
+          "Drew Williams",
+          "Jordan Smith",
+          "Morgan Garcia",
+          "Morgan Johnson",
+          "Quinn Garcia",
+          "Riley Miller",
+          "Riley Smith",
+          "Taylor Brown"
+        ],
+        "site_name": "Cleveland Clinic, Cleveland, OH",
+        "total_evaluations": 20,
+        "unique_preceptors": 15
+      },
+      {
+        "case_types": [
+          "Adult Sinus Surgery",
+          "Cataract Surgery with Intraocular Lens (IOL) Implantation",
+          "Cervical Laminectomy",
+          "Cholecystectomy",
+          "Continuous Labor Epidural Placement",
+          "Fusion Lumbar Anterior L4-5 ALIF",
+          "Kyphoplasty for Vertebral Compression Fracture",
+          "L4-5 Laminectomy and Fusion",
+          "MRI Brain and Spine (11-Year-Old)",
+          "Minimally Invasive Mitral Valve Repair/Replacement",
+          "Pediatric Cerumen Disimpaction and T&A",
+          "Penile Implant Surgery",
+          "Popliteal Endarterectomy and Bypass",
+          "Quadriceps Tendon Repair",
+          "Radical Vulvectomy",
+          "Robotic Hysterectomy with Morcellation",
+          "Roux-en-Y Gastric Bypass",
+          "Thoracic Endovascular Aortic Repair (TEVAR)",
+          "Tumor Resection"
+        ],
+        "preceptor_names": [
+          "Alex Miller",
+          "Alex Smith",
+          "Alex Williams",
+          "Casey Garcia",
+          "Christopher Wilson",
+          "Drew Johnson",
+          "Jordan Smith",
+          "Jordan Williams",
+          "Quinn Garcia",
+          "Quinn Jones",
+          "Quinn Smith",
+          "Quinn Timme",
+          "Riley Jones",
+          "Riley Timme",
+          "Taylor Brown",
+          "Taylor Johnson",
+          "Taylor Williams"
+        ],
+        "site_name": "Emory University Hospital, Atlanta, GA",
+        "total_evaluations": 19,
+        "unique_preceptors": 17
+      },
+      {
+        "case_types": [
+          "Arm Mass Resection",
+          "Axillary-Femoral Bypass",
+          "Bilateral Chalazia Excision",
+          "Bilateral Tibial ORIF",
+          "Breast Reconstruction (various)",
+          "DIEP Flap",
+          "Endoscopic Ultrasound (EUS)",
+          "L5-S1 Anterior/Posterior Fusion",
+          "Lefort I Osteotomy",
+          "Melanoma Excision (Geriatric, LMA)",
+          "Pediatric Difficult Airway",
+          "Pediatric Lab Draw",
+          "Pediatric VP Shunt Placement/Revision",
+          "Pulmonary Lobectomy",
+          "Robotic Hysterectomy with BSO",
+          "Robotic Ostomy Reversal",
+          "Robotic Prostatectomy (Second Instance)",
+          "Transforaminal Lumbar Interbody Fusion (TLIF)",
+          "Unspecified Procedure (OR 7 Case 2)"
+        ],
+        "preceptor_names": [
+          "Alex Brown",
+          "Daniel Kim",
+          "Drew Brown",
+          "Drew Garcia",
+          "Drew Jones",
+          "Drew Williams",
+          "Jordan Johnson",
+          "Jordan Miller",
+          "Morgan Johnson",
+          "Morgan Timme",
+          "Morgan Williams",
+          "Quinn Jones",
+          "Quinn Williams",
+          "Riley Miller",
+          "Stephanie Taylor",
+          "Taylor Smith",
+          "Taylor Timme"
+        ],
+        "site_name": "UCSF Medical Center, San Francisco, CA",
+        "total_evaluations": 19,
+        "unique_preceptors": 17
+      },
+      {
+        "case_types": [
+          "ALIF Lumbar Fusion",
+          "Anal Botox Injection",
+          "Anterior/Posterior Fusion (Cervical)",
+          "Ascending Aorta Repair / Septal Myectomy",
+          "Brain MRI",
+          "Cervical Disc Replacement",
+          "Deep Brain Stimulator (DBS) Implantation",
+          "Digit Debulking",
+          "Distal Radius Fracture Repair",
+          "Endoscopic Sinus Surgery",
+          "Fistula Translocation (LMA)",
+          "Hip Arthroplasty (Including Oncologic)",
+          "Hip Pinning (Geriatric, ASA 4)",
+          "Pediatric Cataract",
+          "Pediatric G-Tube and Orchiopexy",
+          "Robotic Total Hysterectomy with BSO",
+          "Ruptured Globe Repair",
+          "Sigmoidoscopy",
+          "Splenectomy"
+        ],
+        "preceptor_names": [
+          "Alex Brown",
+          "Alex Garcia",
+          "Alex Jones",
+          "Alex Smith",
+          "Casey Timme",
+          "Drew Garcia",
+          "Drew Williams",
+          "Jordan Johnson",
+          "Jordan Williams",
+          "Morgan Garcia",
+          "Morgan Miller",
+          "Riley Jones",
+          "Taylor Johnson",
+          "Taylor Jones",
+          "Taylor Williams"
+        ],
+        "site_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "total_evaluations": 19,
+        "unique_preceptors": 15
+      },
+      {
+        "case_types": [
+          "Ankle Arthroplasty",
+          "Artificial Sphincter Placement",
+          "Axillary-Brachial Aneurysm Repair",
+          "Bilateral Breast Reduction",
+          "Bilateral T&A",
+          "Carpal Tunnel Release (Geriatric)",
+          "Exploratory Laparotomy for Abdominal Trauma",
+          "Kyphoplasty/Vertebroplasty",
+          "L3-4 Microdiscectomy",
+          "Laparoscopic Splenectomy",
+          "Nasolacrimal Duct Probing",
+          "Pediatric Auditory/CT/MRI",
+          "Phacoemulsification with IOL",
+          "Pulmonary Embolectomy",
+          "Ruptured Achilles Repair",
+          "Subdural Tap",
+          "Ureteroneocystostomy"
+        ],
+        "preceptor_names": [
+          "Alex Miller",
+          "Casey Smith",
+          "Casey Timme",
+          "Drew Johnson",
+          "Drew Jones",
+          "Drew Smith",
+          "Jordan Brown",
+          "Morgan Timme",
+          "Quinn Johnson",
+          "Quinn Miller",
+          "Riley Brown",
+          "Riley Garcia",
+          "Riley Jones"
+        ],
+        "site_name": "Duke University Hospital, Durham, NC",
+        "total_evaluations": 17,
+        "unique_preceptors": 13
+      },
+      {
+        "case_types": [
+          "AAA Repair",
+          "ALIF Lumbar Fusion",
+          "Ankle Hardware Removal",
+          "Anterior Bowel Resection",
+          "Dupuytren's Contracture Release",
+          "EC-IC Bypass",
+          "Laparoscopic Cholecystectomy",
+          "Lefort I Osteotomy",
+          "Pediatric Radiation Oncology MAC",
+          "Proximal Humerus Fracture Repair",
+          "Radical Hysterectomy",
+          "Robotic Partial Nephrectomy",
+          "Salpingectomy",
+          "Subclavian Stent and Cutdown",
+          "Total Hip Arthroplasty (THA)",
+          "Total Knee Arthroplasty with AC/IPACK Block and Spinal",
+          "Tubal Ligation (Third Instance)"
+        ],
+        "preceptor_names": [
+          "Alex Garcia",
+          "Casey Johnson",
+          "Casey Miller",
+          "Casey Timme",
+          "Drew Brown",
+          "Drew Smith",
+          "Jordan Johnson",
+          "Morgan Miller",
+          "Quinn Jones",
+          "Quinn Miller",
+          "Quinn Williams",
+          "Riley Miller",
+          "Riley Smith",
+          "Taylor Smith",
+          "Taylor Timme"
+        ],
+        "site_name": "Parkland Memorial Hospital, Dallas, TX",
+        "total_evaluations": 17,
+        "unique_preceptors": 15
+      },
+      {
+        "case_types": [
+          "Spinal Cord Stimulator (SCS) Implantation"
+        ],
+        "preceptor_names": [
+          "Casey Jones"
+        ],
+        "site_name": "Unknown Site",
+        "total_evaluations": 1,
+        "unique_preceptors": 1
+      }
+    ],
+    "total_evaluations": 159,
+    "total_preceptors": 159,
+    "total_sites": 9
+  },
+  "created_at": "2025-11-05T20:27:13-08:00",
+  "generated_at": "2025-11-05T20:27:13-08:00",
+  "report_text": "Of course. Here is a comprehensive site report based on the provided evaluation data, written in a professional and analytical tone suitable for program administrators and accreditation bodies. --- ### **CRNA Program Clinical Site and Preceptor Evaluation Report** **For the Period Ending: [Current Date]** ### **1. Executive Summary** This report provides a comprehensive analysis of the clinical training network for the Certified Registered Nurse Anesthetist (CRNA) program, based on a total of **159 student evaluations** conducted across **9 clinical sites**. The data reflects the engagement of **159 unique preceptors**, highlighting a broad and diverse instructional network. The program's clinical education is anchored by several high-volume, high-acuity medical centers, with **Tripler Army Medical Center** emerging as the leading site, accounting for 16.4% of all evaluations. Other key partners, including Harborview Medical Center, Cleveland Clinic, and Emory University Hospital, provide a rich and varied case mix, ensuring students receive a well-rounded clinical experience. A significant finding from this dataset is the 1:1 ratio of evaluations to preceptors. This indicates an exceptionally wide preceptor base but also suggests a lack of deep engagement with any single preceptor within this evaluation period. This report will analyze the strengths of this distributed model while also providing strategic recommendations to enhance preceptor development, optimize site utilization, and improve data integrity for future planning and accreditation purposes. --- ### **2. Clinical Sites Analysis** The program's clinical education is distributed across eight distinct, high-profile medical centers and one unknown entry. The distribution of evaluations provides insight into the primary training environments for students. **Site Evaluation and Resource Summary** | Clinical Site | Location | Total Evaluations | % of Total Evals | Case Type Variety | Preceptors | | :--- | :--- | :--- | :--- | :--- | :--- | | Tripler Army Medical Center | Honolulu, HI | 26 | 16.4% | 25 | 21 | | Harborview Medical Center | Seattle, WA | 21 | 13.2% | 21 | 17 | | Cleveland Clinic | Cleveland, OH | 20 | 12.6% | 20 | 15 | | Emory University Hospital | Atlanta, GA | 19 | 11.9% | 19 | 17 | | UCSF Medical Center | San Francisco, CA | 19 | 11.9% | 19 | 17 | | Johns Hopkins Hospital | Baltimore, MD | 19 | 11.9% | 19 | 15 | | Duke University Hospital | Durham, NC | 17 | 10.7% | 17 | 13 | | Parkland Memorial Hospital | Dallas, TX | 17 | 10.7% | 17 | 15 | | Unknown Site | N/A | 1 | 0.6% | 1 | 1 | | **Total** | | **159** | **100%** | | **111 (unique site-preceptors)** | **Detailed Site Breakdown:** * **Lead Training Site: Tripler Army Medical Center** With 26 evaluations, Tripler is the most utilized clinical site in this dataset. It offers the highest variety of case types (25) and the largest pool of engaged preceptors (21). Its unique position as a major military medical center likely provides students with unparalleled experience in trauma, orthopedic, and general surgery cases involving a diverse patient population. * **Core High-Acuity Centers: Harborview, Cleveland Clinic, Emory, UCSF, Johns Hopkins** This cluster of five nationally recognized institutions forms the backbone of the clinical program, collectively accounting for 98 evaluations (61.6% of the total). Each site offers a nearly 1:1 ratio of evaluations to case types, indicating a robust and varied surgical schedule. These centers are critical for exposing students to complex specialties such as cardiothoracic, neurosurgical, transplant, and critical care anesthesia. * **Significant Regional Partners: Duke University Hospital & Parkland Memorial Hospital** Duke and Parkland are vital components of the network, each contributing 17 evaluations. Their substantial volume and preceptor pools ensure consistent clinical access for students. Parkland, as a major public safety-net hospital, likely offers exceptional experience in trauma and obstetric anesthesia, complementing the experiences at other sites. * **Data Integrity Concern: Unknown Site** The presence of one evaluation from an \"Unknown Site\" represents a critical gap in data collection. It is imperative to resolve this entry to ensure accurate tracking of student hours, case types, and preceptor interactions for both program management and accreditation reporting. --- ### **3. Preceptor Analysis** The program leverages an extensive network of 159 preceptors to deliver clinical instruction. The analysis of this network reveals significant breadth but raises questions about the depth of preceptor-student relationships. **Key Findings:** * **Extensive Network Breadth:** The data shows **159 unique preceptors for 159 evaluations**. This 1:1 ratio indicates that no single preceptor was evaluated more than once in this dataset. This model exposes students to a wide variety of teaching styles, clinical approaches, and professional perspectives. * **Lack of Performance Depth Data:** While the breadth is a strength, the current data structure does not allow for an analysis of preceptor performance over time or with multiple students. It is impossible to identify \"master preceptors,\" track individual improvement, or assess teaching consistency. All preceptors in the sample data (e.g., Riley Timme, Drew Johnson, etc.) have only one recorded evaluation. * **Preceptor Distribution by Site:** Preceptor engagement is heavily concentrated at the high-volume sites. * **Tripler Army Medical Center:** 21 preceptors * **Harborview, Emory, UCSF:** 17 preceptors each * **Cleveland Clinic, Johns Hopkins, Parkland:** 15 preceptors each * **Duke University Hospital:** 13 preceptors * **Potential Data Duplication:** The sample list includes duplicate names (e.g., \"Drew Jones,\" \"Casey Jones\"). This may indicate two different individuals with the same name or potential data entry errors. Implementing unique preceptor identifiers is recommended for accurate tracking. --- ### **4. Insights and Recommendations** This data provides valuable insights into the structure and function of the CRNA program's clinical network. The following AI-generated insights and recommendations are designed to optimize program effectiveness, enhance student learning, and strengthen accreditation reporting. **Key Insights:** 1. **Strength in Site Diversity and Acuity:** The program's greatest strength lies in its partnership with a diverse portfolio of high-acuity, nationally respected medical centers. This ensures students are exposed to the complexity and variety of cases required to meet and exceed Council on Accreditation (COA) standards. 2. **The Preceptor Network is Broad, Not Deep:** The 1:1 preceptor-to-evaluation ratio highlights a \"distributed\" mentorship model. While this prevents over-reliance on a few individuals and provides students with diverse perspectives, it limits the program's ability to cultivate and develop a core group of expert clinical instructors who are deeply integrated with the program's curriculum and goals. 3. **Data Integrity is a Key Challenge:** The \"Unknown Site\" and potential duplicate preceptor names indicate a need for more rigorous data governance. Inconsistent or incomplete data entry undermines the ability to perform accurate analysis, track student progress effectively, and generate reliable reports for accreditation. **Strategic Recommendations:** 1. **Recommendation: Institute a \"Core Preceptor\" Development Program.** * **Action:** Identify preceptors who are highly effective and willing to engage more deeply with the program. Use qualitative feedback, student nominations, and clinical coordinator observations to select this group. * **Rationale:** Cultivating a dedicated team of \"core preceptors\" will create more consistent clinical instruction, provide reliable mentorship for students, and establish a feedback loop for curriculum improvement. These individuals can be offered faculty development, given formal titles (e.g., \"Clinical Adjunct Faculty\"), and serve as site leaders. 2. **Recommendation: Enhance Preceptor Evaluation and Tracking.** * **Action:** Transition from a per-evaluation tracking system to a longitudinal one. Implement a system with unique preceptor IDs to track key metrics over time, such as: * Total number of students precepted annually. * Average student evaluation scores across all interactions. * Participation in program-sponsored training or meetings. * **Rationale:** This will provide a multi-dimensional view of preceptor performance, enabling the program to identify and reward top performers, provide targeted support to those who need it, and demonstrate robust faculty oversight to the COA. 3. **Recommendation: Implement Standardized Data Entry Protocols.** * **Action:** Update the evaluation software or manual entry process to include mandatory, dropdown fields for key data points like \"Clinical Site\" and \"Preceptor Name.\" This eliminates free-text entry and the possibility of an \"Unknown Site.\" * **Rationale:** Clean, standardized data is essential for accurate reporting and strategic decision-making. This simple technical fix will significantly improve data reliability and reduce administrative burden in the long term. 4. **Recommendation: Conduct a Granular Case Mix Analysis.** * **Action:** The current \"case types\" metric is too general (e.g., 25 case types). The program should leverage its strong site partnerships to perform a deeper analysis of the *specific types* of cases students are completing at each location (e.g., number of pediatric, cardiac, obstetric, neurosurgical cases). * **Rationale:** This will ensure that all students are meeting their required case counts in specialty areas and will allow the program to strategically assign students to sites that can fill specific gaps in their clinical experience.",
+  "report_version": "1.0",
+  "total_evaluations_analyzed": 159
+}

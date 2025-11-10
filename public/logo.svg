@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_30" data-name="Layer 30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298.54 84.93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efefef;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: BasicSans-BlackIt, 'Basic Sans';
+        font-size: 52.96px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #ffbd55;
+      }
+
+      .cls-5 {
+        letter-spacing: .01em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(11.67 60.7)"><tspan class="cls-5" x="0" y="0">P</tspan><tspan class="cls-3" x="33.1" y="0">r</tspan><tspan class="cls-5" x="54.55" y="0">ecepGo</tspan></text>
+  <path class="cls-1" d="M286.69,63.9h-39.92V30.04h39.92v33.85ZM253.05,57.61h27.35v-21.29h-27.35v21.29Z"/>
+  <polygon class="cls-4" points="251.21 45.05 262.82 56.67 291.85 27.64 286.21 22.01 263.57 44.65 256.98 38.06 251.21 45.05"/>
+</svg>
