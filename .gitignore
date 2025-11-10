@@ -42,3 +42,6 @@ coverage
 # Misc
 .cache
 .temp
+
+# Readme folder markdown files
+readme/*.md

@@ -658,10 +658,6 @@ function App() {
     try {
       const result = await agent.action()
       if (result.ok !== false) {
-        // Only show success alert if not during initial load
-        if (!isInitialLoad) {
-          alert(`✅ ${agent.name} started successfully!`)
-        }
         // Firestore listeners will automatically update the state when backend updates it
         // The optimistic update will be overridden by the real Firestore state
         console.log(`[App] ✅ ${agent.name} action completed - Firestore will update state`)

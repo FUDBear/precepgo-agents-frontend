@@ -1,5 +1,16 @@
 [
   {
+    "name": "Evaluation Agent",
+    "apiName": "evaluation_agent",
+    "description": "Evaluates performance and outcomes",
+    "icon": "/evaluation.svg",
+    "color": "bg-green-500/20",
+    "iconColor": "text-green-600",
+    "action": "createDemoEvaluation",
+    "detailedDescription": "The Evaluation Agent generates realistic demo data that accurately simulates how a preceptor would evaluate a student during clinical rotations. By creating authentic preceptor evaluation patterns, the agent produces safe, synthetic evaluation data that mimics real-world clinical assessments. This demo data includes comprehensive performance metrics across clinical competencies, preceptor observations, and structured feedback - all formatted to match actual evaluation documentation. The agent enables safe testing and development of other PrecepGo services by providing realistic evaluation data without requiring access to sensitive student information. This approach allows for thorough testing of downstream agents (like the Safety Agent and COA Agent) using authentic data patterns while maintaining complete data privacy and security.",
+    "realWorldProblem": "Preceptors spend significant time creating detailed evaluation reports, which reduces time available for direct student supervision and teaching. Inconsistent evaluation formats make it difficult to track student progress over time. The Evaluation Agent solves this by automating the evaluation creation process while maintaining thoroughness and consistency, allowing preceptors to focus on teaching while ensuring comprehensive documentation of student progress."
+  },
+  {
     "name": "Safety Agent",
     "apiName": "notification_agent",
     "description": "Monitors and ensures safety protocols",
@@ -20,17 +31,6 @@
     "action": "generateScenario",
     "detailedDescription": "The Scenario Agent creates personalized clinical training scenarios tailored to individual student needs. By analyzing past performance data, case histories, and learning objectives, it generates realistic clinical scenarios that target specific skill gaps or learning areas. Each scenario includes patient details, clinical context, learning objectives, and discussion points. This personalized approach ensures students receive targeted practice opportunities that align with their current skill level and learning needs, maximizing educational efficiency and preparing them for real-world clinical challenges.",
     "realWorldProblem": "Traditional clinical training relies on generic scenarios that may not address individual student learning needs. Preceptors often lack time to create personalized training scenarios, leading to inefficient learning experiences. The Scenario Agent solves this by automatically generating tailored scenarios based on each student's performance history, ensuring targeted practice that maximizes learning efficiency and better prepares students for clinical challenges."
-  },
-  {
-    "name": "Evaluation Agent",
-    "apiName": "evaluation_agent",
-    "description": "Evaluates performance and outcomes",
-    "icon": "/evaluation.svg",
-    "color": "bg-green-500/20",
-    "iconColor": "text-green-600",
-    "action": "createDemoEvaluation",
-    "detailedDescription": "The Evaluation Agent generates realistic demo data that accurately simulates how a preceptor would evaluate a student during clinical rotations. By creating authentic preceptor evaluation patterns, the agent produces safe, synthetic evaluation data that mimics real-world clinical assessments. This demo data includes comprehensive performance metrics across clinical competencies, preceptor observations, and structured feedback - all formatted to match actual evaluation documentation. The agent enables safe testing and development of other PrecepGo services by providing realistic evaluation data without requiring access to sensitive student information. This approach allows for thorough testing of downstream agents (like the Safety Agent and COA Agent) using authentic data patterns while maintaining complete data privacy and security.",
-    "realWorldProblem": "Preceptors spend significant time creating detailed evaluation reports, which reduces time available for direct student supervision and teaching. Inconsistent evaluation formats make it difficult to track student progress over time. The Evaluation Agent solves this by automating the evaluation creation process while maintaining thoroughness and consistency, allowing preceptors to focus on teaching while ensuring comprehensive documentation of student progress."
   },
   {
     "name": "COA Agent",
