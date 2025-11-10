@@ -281,6 +281,37 @@ function App() {
     console.log('[App] 🎨 Current evaluation_agent state:', agentFirestoreStates['evaluation_agent'])
   }, [agentFirestoreStates])
 
+  // Track previous states to detect completion and show alerts
+  const prevAgentStatesRef = useRef<Record<string, Record<string, any> | null>>({})
+  
+  useEffect(() => {
+    agents.forEach(agent => {
+      if (agent.apiName === 'time_savings_agent') return
+      
+      const currentState = agentFirestoreStates[agent.apiName]
+      const prevState = prevAgentStatesRef.current[agent.apiName]
+      
+      if (currentState && prevState) {
+        const currentStateValue = currentState?.state || currentState?.status || currentState?.agent_state
+        const prevStateValue = prevState?.state || prevState?.status || prevState?.agent_state
+        
+        const currentNormalized = typeof currentStateValue === 'string' ? currentStateValue.toLowerCase() : null
+        const prevNormalized = typeof prevStateValue === 'string' ? prevStateValue.toLowerCase() : null
+        
+        // Detect transition from active/generating/processing to idle/completed
+        const wasActive = prevNormalized === 'active' || prevNormalized === 'generating' || prevNormalized === 'processing'
+        const isNowIdle = currentNormalized === 'idle' || currentNormalized === 'completed'
+        
+        if (wasActive && isNowIdle && !isInitialLoad) {
+          alert(`✅ ${agent.name} completed successfully!`)
+        }
+      }
+      
+      // Update ref for next comparison
+      prevAgentStatesRef.current[agent.apiName] = currentState
+    })
+  }, [agentFirestoreStates, isInitialLoad])
+
   // Listen to all agent states from single Firestore document
   useEffect(() => {
     console.log('[App] 🔄 Setting up all_states listener...', new Date().toISOString())
@@ -609,50 +640,80 @@ function App() {
       return
     }
 
+    // OPTIMISTIC UI UPDATE: Immediately show agent as active for instant feedback
+    setAgentFirestoreStates(prevStates => ({
+      ...prevStates,
+      [agent.apiName]: {
+        state: 'active',
+        status: 'active',
+        agent_state: 'active',
+        ...prevStates[agent.apiName] // Preserve other fields
+      }
+    }))
+    
     // Set loading state for immediate UI feedback (spinner, disabled state)
-    // But DON'T set agentStatuses optimistically - let Firestore be the source of truth
     setLoading(agent.name)
-    console.log(`[App] 🚀 Starting ${agent.name} - waiting for Firestore to update state...`)
+    console.log(`[App] 🚀 Starting ${agent.name} - optimistic UI update applied, waiting for Firestore...`)
 
     try {
       const result = await agent.action()
       if (result.ok !== false) {
         // Only show success alert if not during initial load
         if (!isInitialLoad) {
-          alert(`✅ ${agent.name} completed successfully!`)
+          alert(`✅ ${agent.name} started successfully!`)
         }
         // Firestore listeners will automatically update the state when backend updates it
-        // Don't set local state - let Firestore be the single source of truth
+        // The optimistic update will be overridden by the real Firestore state
         console.log(`[App] ✅ ${agent.name} action completed - Firestore will update state`)
       } else {
+        // Revert optimistic update on failure
+        setAgentFirestoreStates(prevStates => ({
+          ...prevStates,
+          [agent.apiName]: {
+            state: 'idle',
+            status: 'idle',
+            agent_state: 'idle',
+            ...prevStates[agent.apiName]
+          }
+        }))
         // Only show error alert if not during initial load
         if (!isInitialLoad) {
           alert(`❌ ${agent.name} failed: ${result.detail || 'Unknown error'}`)
         } else {
           console.error(`[App] ${agent.name} failed on initial load:`, result.detail)
         }
-        // Don't set local state - Firestore will update when backend records the error
-        console.log(`[App] ❌ ${agent.name} failed - Firestore will update state`)
+        console.log(`[App] ❌ ${agent.name} failed - reverted optimistic update`)
       }
     } catch (error: any) {
+      // Revert optimistic update on error
+      setAgentFirestoreStates(prevStates => ({
+        ...prevStates,
+        [agent.apiName]: {
+          state: 'idle',
+          status: 'idle',
+          agent_state: 'idle',
+          ...prevStates[agent.apiName]
+        }
+      }))
       // Only show error alert if not during initial load
       if (!isInitialLoad) {
         alert(`❌ ${agent.name} error: ${error.message || 'Unknown error'}`)
       } else {
         console.error(`[App] ${agent.name} error on initial load:`, error.message)
       }
-      // Don't set local state - Firestore will update when backend records the error
-      console.log(`[App] ❌ ${agent.name} error - Firestore will update state`)
+      console.log(`[App] ❌ ${agent.name} error - reverted optimistic update`)
     } finally {
-      // Clear loading state after a short delay to allow Firestore update to come through
-      // This gives the backend time to update Firestore before we stop showing the loading spinner
+      // Clear loading state after a delay to allow Firestore update to come through
+      // Keep it visible longer (3 seconds) so user sees feedback
       setTimeout(() => {
         setLoading(null)
-      }, 500)
+      }, 3000)
     }
   }
 
   // Handle automated mode toggle
+  // Function is ready but UI toggle is currently commented out
+  // @ts-expect-error - Function intentionally unused until toggle UI is enabled
   const handleToggleAutomatedMode = async () => {
     // Prevent multiple simultaneous toggles
     if (togglingAutomatedMode) {
@@ -881,12 +942,13 @@ function App() {
           // Only use API status if Firestore state is not available
           const isActiveFromAPI = agentStatus?.state === 'active'
           
-          // isActive: ONLY use Firestore state as source of truth
-          // isLoading is used for spinner/disabled state, but NOT for determining "active" status
-          // This ensures all tabs sync properly - only Firestore determines if agent is active
-          const isActive = firestoreState !== null && firestoreState !== undefined
-            ? isActiveFromFirestore  // Use Firestore state if available
-            : (isActiveFromAPI || false)  // Fallback to API only if Firestore not available
+          // isActive: Use Firestore state as source of truth, BUT also show active when loading
+          // This provides immediate UI feedback when user clicks an action
+          const isActive = isLoading 
+            ? true  // Show as active immediately when loading (optimistic UI)
+            : (firestoreState !== null && firestoreState !== undefined
+              ? isActiveFromFirestore  // Use Firestore state if available
+              : (isActiveFromAPI || false))  // Fallback to API only if Firestore not available
           
           // Debug logging for evaluation agent
           if (agent.apiName === 'evaluation_agent') {
@@ -1087,11 +1149,12 @@ function App() {
                                   setOpenDropdown(null)
                                   !isDisabled && handleAgentAction(agent)
                                 }}
-                                className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center gap-2"
+                                className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 flex items-center gap-2 cursor-pointer"
                                 disabled={isDisabled}
+                                type="button"
                               >
-                                <span className="material-symbols-outlined" style={{ fontSize: '20px' }}>add</span>
-                                Create Evaluation
+                                <span className="material-symbols-outlined shrink-0" style={{ fontSize: '20px' }}>add</span>
+                                <span className="flex-1">Create Evaluation</span>
                               </button>
                               <button
                                 onClick={(e) => {
@@ -1265,11 +1328,6 @@ function App() {
                                   📊 {latestSiteReport.data.total_evaluations} evaluation{latestSiteReport.data.total_evaluations !== 1 ? 's' : ''} processed
                                 </p>
                               )}
-                              {/* {latestSiteReport.data.created_at && (
-                                <p className="text-xs text-gray-500 mt-1">
-                                  Last report: {formatDate(latestSiteReport.data.created_at)}
-                                </p>
-                              )} */}
                             </>
                           )}
                           <button

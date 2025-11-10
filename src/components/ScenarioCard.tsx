@@ -18,6 +18,7 @@ interface ScenarioData {
   case_type?: string // Direct case_type field (alternative to case.name/case.code)
   patient?: {
     name?: string
+    full_name?: string
     age?: number
     categories?: string[]
   }
